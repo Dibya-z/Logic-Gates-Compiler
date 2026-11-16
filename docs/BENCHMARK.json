@@ -1,0 +1,30 @@
+{
+  "inputs": 10,
+  "outputs": 2,
+  "rows": 1024,
+  "originalGates": 18,
+  "includes": [
+    "lexing",
+    "parsing",
+    "semantics",
+    "IR",
+    "optimization",
+    "exhaustive equivalence",
+    "truth table",
+    "canonical forms",
+    "Verilog",
+    "layout",
+    "SVG"
+  ],
+  "excludes": [
+    "loading TypeScript modules",
+    "React rendering"
+  ],
+  "node": "v24.22.3",
+  "platform": "darwin arm64",
+  "coldMs": 16.89,
+  "warmMedianMs": 9.41,
+  "worstMs": 16.89,
+  "limitMs": 300,
+  "passed": true
+}
