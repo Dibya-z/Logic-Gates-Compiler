@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-16",
+  "node": "v24.22.3",
+  "platform": "macOS arm64",
+  "tests": 273,
+  "passed": 273,
+  "files": 11,
+  "suites": [
+    {
+      "file": "src/lib.test.ts",
+      "tests": 16,
+      "passed": 16
+    },
+    {
+      "file": "src/ai/client.test.ts",
+      "tests": 18,
+      "passed": 18
+    },
+    {
+      "file": "src/compiler/codegen.test.ts",
+      "tests": 38,
+      "passed": 38
+    },
+    {
+      "file": "src/compiler/evaluator.test.ts",
+      "tests": 15,
+      "passed": 15
+    },
+    {
+      "file": "src/compiler/ir.test.ts",
+      "tests": 12,
+      "passed": 12
+    },
+    {
+      "file": "src/compiler/lexer.test.ts",
+      "tests": 24,
+      "passed": 24
+    },
+    {
+      "file": "src/compiler/optimizer.test.ts",
+      "tests": 35,
+      "passed": 35
+    },
+    {
+      "file": "src/compiler/parser.test.ts",
+      "tests": 30,
+      "passed": 30
+    },
+    {
+      "file": "src/compiler/pipeline.test.ts",
+      "tests": 55,
+      "passed": 55
+    },
+    {
+      "file": "src/compiler/semantic.test.ts",
+      "tests": 28,
+      "passed": 28
+    },
+    {
+      "file": "src/compiler/types.test.ts",
+      "tests": 2,
+      "passed": 2
+    }
+  ],
+  "productionBuild": "passed",
+  "developmentServer": "HTTP 200",
+  "browser": {
+    "checks": 17,
+    "samples": 33,
+    "consoleErrors": 0,
+    "viewports": [
+      1440,
+      1024,
+      768,
+      390
+    ]
+  },
+  "aiLiveProviderCall": "not run; no API key supplied",
+  "cleanSource": {
+    "method": "git archive of committed source into a fresh directory",
+    "install": "npm ci --offline --no-audit with a populated package cache",
+    "testsPassed": 273,
+    "productionBuild": "passed",
+    "developmentServer": "HTTP 200",
+    "localEnvironmentFileRequired": false
+  }
+}
